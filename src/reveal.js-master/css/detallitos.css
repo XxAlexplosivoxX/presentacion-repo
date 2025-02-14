@@ -1,0 +1,54 @@
+* {
+	font-family: monospace !important;
+}
+
+.lista > li {
+	list-style: none;
+	tab-size: 8;
+}
+
+p {
+	text-align: left;
+	margin: 0 !important;
+}
+
+h5 {
+	margin: 0 !important;
+}
+
+img {
+	width: 550px;
+	object-fit: none;
+	height: auto;
+	margin: 0 50px
+}
+
+.acomodao {
+	min-height: 500px;
+	width: 100%;
+	text-align: left;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.text-container {
+	padding: 30px;
+	min-height: 0px;
+	display: block
+}
+
+.d-none {
+	font-size: 0;
+}
+
+.invisible {
+	opacity: 0;
+	height: 0;
+}
+
+.centrao {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

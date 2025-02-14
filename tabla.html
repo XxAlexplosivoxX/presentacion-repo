@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Trabajo</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #1e1e1e;
+            padding: 20px;
+            color: #fff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            
+            max-width: 1200px;
+            background: #2c2c2c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #3a3a3a;
+        }
+        tr:hover {
+            background-color: #505050;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                display: none;
+            }
+            tr {
+                margin-bottom: 10px;
+                border: 1px solid #444;
+                padding: 10px;
+                background: #3a3a3a;
+            }
+            td {
+                text-align: left;
+                padding-left: 50%;
+                position: relative;
+            }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cronograma de Trabajo</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Resumen de Trabajo</th>
+                    <th>Integrantes</th>
+                    <th>Método de Acción</th>
+                    <th>Horas Empleadas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>05/02/25</td>
+                    <td>Se investigó en diferentes páginas web información relacionada sobre desarrollo de software.</td>
+                    <td>Todos</td>
+                    <td>Informarse</td>
+                    <td>5 horas</td>
+                </tr>
+                <tr>
+                    <td>06/02/25</td>
+                    <td>Seleccionamos la información más útil que previamente habíamos investigado y la juntamos en un compendio.</td>
+                    <td>Todos</td>
+                    <td>Planificar</td>
+                    <td>5 horas</td>
+                </tr>
+                <tr>
+                    <td>07/02/25</td>
+                    <td>Continuamos el proceso del día anterior.</td>
+                    <td>todos</td>
+                    <td>Planificar</td>
+                    <td>2 horas</td>
+                </tr>
+                <tr>
+                    <td>08/02/25</td>
+                    <td>Seguir agregando información importante, también iniciamos la presentación.</td>
+                    <td>
+                    <ul>
+                      <li>Presentacion: Wilfredo</li>
+                      <li>Resumen: Edward, Jefferson y miwel</li>
+                    </ul>
+                    </td>
+                    <td>decidir</td>
+                    <td>2-4 horas</td>
+                </tr>
+                <tr>
+                    <td>09/02/25 </td>
+                    <td>avanzo en la presentacion y el compendio</td>
+                    <td>Todos</td>
+                    <td>decidir</td>
+                    <td>3:30 horas</td>
+
+<!--hasta aqui -->
+                </tr>
+		   <tr>
+                    <td>10/02/25 </td>
+                    <td>formalizamos nuestros roles, y pasamos a la etapa inicial de los diagramas.Asi mismo ejecutamos todo lo decidido</td>
+                    <td>Todos</td>
+                    <td>ejecutar</td>
+                    <td>5-6 horas</td>
+                </tr>
+		   <tr>
+                    <td>11/02/25</td>
+                    <td>avanzo de los diagrama y reestructuracion de la presentacion</td>
+                    <td>Todos</td>
+                    <td>ejecutar</td>
+                    <td>5-7 horas</td>
+                </tr>
+		 <tr>
+                    <td>12/02/25</td>
+                    <td>se termino el diagrama de Ichikawa en canva y se sigui modificando la presentacion</td>
+                    <td>Todos</td>
+                    <td>ejecutar</td>
+                    <td>5 horas</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<!--curl -LO https://raw.githubusercontent.com/gh0stzk/dotfiles/master/RiceInstaller -->
+</body>
+</html>
+
