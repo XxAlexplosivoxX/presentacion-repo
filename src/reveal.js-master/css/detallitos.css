@@ -34,7 +34,15 @@ img {
 .text-container {
 	padding: 30px;
 	min-height: 0px;
-	display: block
+	display: block;
+	top: -10px;
+}
+
+.text-container1 {
+	padding: 30px;
+	min-height: 0px;
+	display: block;
+	margin: auto 0;
 }
 
 .d-none {
@@ -51,4 +59,29 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.facilitador {
+	width: 100%;
+	object-fit: contain !important;
+}
+
+.lean {
+	object-fit: contain !important;
+	height: 100%;
+	width: auto;
+}
+
+.xp {
+	object-fit: cover !important;
+	height: auto;
+	width: 500px;
+}
+
+.comentario {
+	color: rgb(96, 110, 110);
+}
+
+dd {
+	margin-bottom: 30px;
 }
