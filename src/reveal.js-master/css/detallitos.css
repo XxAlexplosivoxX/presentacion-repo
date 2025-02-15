@@ -85,3 +85,70 @@ img {
 dd {
 	margin-bottom: 30px;
 }
+
+.contenedor-tabla {
+	font-family: "Poppins", sans-serif !important;
+	background-color: #1e1e1e;
+	padding: 20px;
+	color: #fff;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px !important;
+	flex-direction: column;
+	width: 100% !important;
+}
+
+.contenedor-del-contenedor-tabla {
+	margin: 20px;
+	margin-right: 80px;
+}
+
+.contenedor-tabla * {
+	display: inline-flexbox;
+}
+.titulazo {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.tablazo {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+	height: 100px !important;
+	overflow-y: scroll !important;
+	border: #1e1e1e solid 2px !important;
+}
+th, td {
+	border: 1px solid #444;
+	padding: 15px !important;
+	text-align: center;
+	height: 100%;
+	font-size: 20px !important;
+}
+th {
+	background-color: #007BFF;
+	color: white;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px !important;
+}
+tr:nth-child(even) {
+	background-color: #3a3a3a;
+}
+tr:hover {
+	background-color: #505050;
+}
+
+.texto-bug {
+	margin: 10px !important;
+}
+
+.texto-bug2 {
+	margin-bottom: 20px !important;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma de Trabajo</title>
     <style>
-        body {
+        .contenedor-tabla {
             font-family: "Poppins", sans-serif;
             background-color: #1e1e1e;
             padding: 20px;
@@ -15,24 +15,32 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            width: 100% !important;
         }
-        .container {    
+        .contenedor-del-contenedor-tabla {    
             max-width: 1200px;
             background: #2c2c2c;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-            
+            width: 100% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: auto !important;
         }
-        h1 {
+        .titulazo {
             text-align: center;
             color: #fff;
             margin-bottom: 20px;
         }
-        table {
+        .tablazo {
             width: 100%;
             border-collapse: collapse;
             margin-top: 10px;
+            height: 300px !important;
+            overflow-y: scroll !important;
+            width: 100% !important;
         }
         th, td {
             border: 1px solid #444;
@@ -50,35 +58,13 @@
         tr:hover {
             background-color: #505050;
         }
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            table, thead, tbody, th, td, tr {
-                display: block;
-            }
-            thead tr {
-                display: none;
-            }
-            tr {
-                margin-bottom: 10px;
-                border: 1px solid #444;
-                padding: 10px;
-                background: #3a3a3a;
-            }
-            td {
-                text-align: left;
-                padding-left: 50%;
-                position: relative;
-            }
-        }
-        
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Cronograma de Trabajo</h1>
-        <table>
+<div class="contenedor-tabla">
+    <div class="contenedor-del-contenedor-tabla">
+        <h1 class="titulazo">Cronograma de Trabajo</h1>
+        <table class="tablazo">
             <thead>
                 <tr>
                     <th>Fecha</th>
@@ -155,6 +141,7 @@
             </tbody>
         </table>
     </div>
+</div>
 </body>
 </html>
 
